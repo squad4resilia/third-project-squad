@@ -1,13 +1,11 @@
 import '../css/contato.css'
 
-
 function contatos() {
     return (
 
        <>
 
      <main>
-
     <section className="team-section py-5">
       <div className="container">
         <div className="row justify-content-center">
