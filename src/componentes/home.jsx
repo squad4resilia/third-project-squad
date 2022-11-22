@@ -5,7 +5,7 @@ import Remover from './Remover';
 import Atualizar from './Atualizar';
 import Buscar from './Buscar';
 import Contatos from './contatos';
-
+import Index from './Index';
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
                     <div className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                         <svg className="bi me-2" width="40" height="32">
                         </svg>
-                        <span className="nav-item text-primary"><Link to="/Home" className="nav-link">Home</Link></span>
+                        <span className="nav-item text-primary"><Link to="/" className="nav-link">Home</Link></span>
                     </div>
                     <ul className="nav nav-pills">
                         <li className="nav-item"><Link to="/Buscar" className="nav-link">Buscar</Link></li>
@@ -25,6 +25,7 @@ function Home() {
                         <li className="nav-item"><Link to="/Contatos" className="nav-link">Contatos</Link></li>
                     </ul>
                     <Routes>
+                        <Route path='/' element={<Index />}></Route>
                         <Route path='/Buscar' element={<Buscar />}></Route>
                         <Route path='/Cadastrar' element={<Cadastrar />}></Route>
                         <Route path='/Atualizar' element={<Atualizar />}></Route>
@@ -33,12 +34,8 @@ function Home() {
                     </Routes>
                 </header>
             </div>
-            <div className="container">
-                <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom">
-                    <p className="col mb-0 text-muted">© MMXXII</p>
-                </footer>
-            </div>
         </>
     )
 }
+
 export default Home;
