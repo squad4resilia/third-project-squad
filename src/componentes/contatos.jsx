@@ -1,5 +1,4 @@
-import './contato.css'
-
+import '../css/contato.css'
 
 function contatos() {
     return (
@@ -7,7 +6,6 @@ function contatos() {
        <>
 
      <main>
-
     <section className="team-section py-5">
       <div className="container">
         <div className="row justify-content-center">
