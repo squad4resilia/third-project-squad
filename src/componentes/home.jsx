@@ -1,4 +1,4 @@
-import './home.css';
+import '../css/home.css';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Cadastrar from './Cadastrar';
 import Remover from './Remover';
