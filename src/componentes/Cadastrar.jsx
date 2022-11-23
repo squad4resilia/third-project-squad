@@ -1,8 +1,14 @@
+
+import '../css/Cadastrar.css';
+
 import blogFetch from "../hooks/axios";
+
 
 import { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
+
+
 
 const Cadastrar = () => {
     const navigate = useNavigate()
@@ -30,16 +36,16 @@ const Cadastrar = () => {
                             <input type="text" className="form-control" id="nome" placeholder="Nome" name="nome" onChange={(e)=> setNome(e.target.value)}/>
                             <br />
                             {/* Nome */}
-                            <input type="email" className="form-control" id="floatingInput" placeholder="Descrição" />
+                            <input type="text" className="form-control" id="descricão" placeholder="Descrição" name="Descrição" onChange={(e)=> setDescricao(e.target.value)} />
                             <br />
                             {/* Descrição */}
-                            <input type="email" className="form-control" id="floatingInput" placeholder="Valor" />
+                            <input type="text" className="form-control" id="preco" placeholder="Preco" name="Preco" onChange={(e)=> setPreco(e.target.value)}/>
                             <br />
                             {/* Valor */}
-                            <input type="email" className="form-control" id="floatingInput" placeholder="Url Imagem" />
+                            <input type="text" className="form-control" id="imagem" placeholder="Url Imagem" name="imagem" onChange={(e)=> setImagem(e.target.value)}/>
                             <br />
                             {/* Url */}
-                            <button className="w-20 btn btn-lg btn-primary mt-5" type="submit">Cadastrar</button>
+                            <button className="w-200 btn btn-lg btn-primary mt-5" type="submit" id='but'>Cadastrar</button>
                         </div>
                         </form>
                     </div>
