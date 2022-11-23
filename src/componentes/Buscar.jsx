@@ -1,6 +1,5 @@
 import '../css/Buscar.css';
 import React from 'react';
-import axiosget from '../hooks/axios-get';
 
 function Buscar() {
   return (

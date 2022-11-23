@@ -6,6 +6,7 @@ import Atualizar from './Atualizar';
 import Buscar from './Buscar';
 import Contatos from './contatos';
 import Index from './Index';
+import Login from './Login';
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
                         <li className="nav-item"><Link to="/Cadastrar" className="nav-link">Cadastrar</Link></li>
                         <li className="nav-item"><Link to="/Atualizar" className="nav-link">Atualizar</Link></li>
                         <li className="nav-item"><Link to="/Remover" className="nav-link">Remover</Link></li>
+                        <li className="nav-item"><Link to="/Login" className="nav-link">Login</Link></li>
                         <li className="nav-item"><Link to="/Contatos" className="nav-link">Contatos</Link></li>
                     </ul>
                     <Routes>
@@ -30,6 +32,7 @@ function Home() {
                         <Route path='/Cadastrar' element={<Cadastrar />}></Route>
                         <Route path='/Atualizar' element={<Atualizar />}></Route>
                         <Route path='/Remover' element={<Remover />}></Route>
+                        <Route path='/Login' element={<Login />}></Route>
                         <Route path='/Contatos' element={<Contatos />}></Route>
                     </Routes>
                 </header>
