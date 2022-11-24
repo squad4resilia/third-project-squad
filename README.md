@@ -1,19 +1,31 @@
-# third-project-squad
+#Third Project Resilia
 #Third team project in resilia course.
-Crie a pasta com o nome Vite, abra no VSCode,
-coloque no terminal os seguintes comandos;
-Com NPM:
-#npm create vite@latest
-Com Fio: 
-#yarn create vite
 
-Com PNPM:
- #pnpm create vite
-Escolha a opção React
-Em seguida insira:
 
-cd my-project
+### Dependencies
 
-npm install
-npm run dev
+```sh
+- Axios
+- MUI CORE
+```
+
+### Installation
+
+Clone this repo and install the dependencies
+
+```sh
+$ git clone https://github.com/squad4resilia/third-project-squad
+$ cd third-project-squad/
+$ npm install
+$ npm run dev
+```
+
+### Methods
+
+```sh
+- GET /produtos
+- POST /produtos
+- PATCH /produtos
+- DELETE /produtos
+```
 
