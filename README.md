@@ -6,6 +6,7 @@
 ### Dependencies
 
 ```sh
+- React
 - Axios
 - MUI CORE
 ```
