@@ -5,13 +5,14 @@ function Index() {
     <>
       {/* Jumbotron */}
       <div className="p-5 mb-4 myBackground rounded-3">
-        <div className="container-fluid py-5">
-          <h1 className="display-5 fw-bold text-dark">NOME DA FERRAMENTA</h1>
-          <p className="col-md-8 fs-4 text-white">Sabemos o que você precisa para o seu negócio! Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
+        <div className="container-fluid py-5 text-center">
+          <h1 className="display-5 fw-bold text-dark ">NOME DA FERRAMENTA</h1>
+          <p className=" fs-4  text-white text-justify">Sabemos o que você precisa para o seu negócio!<br/> Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
         </div>
       </div>
+      {/* hanging icons */}
       <div className="container px-4 py-5" id="hanging-icons">
-        <h2 className="pb-2 border-bottom">Funcionalidades</h2>
+        <h2 className="pb-2 border-bottom">FUNCIONALIDADES</h2>
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div className="col d-flex align-items-start">
             <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -56,7 +57,7 @@ function Index() {
       <div className="p-5 mb-4 bg-dark rounded-3">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold text-white">A FERRAMENTA ERP IDEAL PARA O SEU NEGÓCIO!</h1>
-          <p className="col-md-8 fs-4 text-white">_____ é uma ferramenta software de gestão de estoque que interliga todos os dados e processos da sua organização em um único sistema!</p>
+          <p className="fs-4 text-white">_____ é uma ferramenta software de gestão de estoque que interliga todos os dados e processos da sua organização em um único sistema!</p>
           <button className="btn btn-primary btn-lg" type="button">Entre em contato!</button>
         </div>
       </div>
@@ -126,7 +127,7 @@ function Index() {
 
       {/* rodapé, favor não alterar :) */}
       <div classNameName="container">
-                <footer classNameName="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom">
+                <footer classNameName="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom backgroundfooter">
                     <p classNameName="col mb-0 text-muted">© MMXXII</p>
                 </footer>
       </div>
