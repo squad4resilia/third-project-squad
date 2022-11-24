@@ -1,5 +1,7 @@
 import '../css/Buscar.css';
+import blogFetch from "../hooks/axios";
 import FreeSolo from "./autocompleter"
+import { useEffect, useState } from 'react';
 
 const Buscar = () => {
 
