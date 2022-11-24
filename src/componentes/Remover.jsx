@@ -1,16 +1,27 @@
 import '../css/Remover.css';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Cadastrar from './Cadastrar';
+import blogFetch from "../hooks/axios";
+import { useState } from "react";
 
-function Remover() {
+const Remover = () => {
+    const [id, setId] = useState()
+      
+    const removeProduct = async (e) => {
+        e.preventDefault();
+        await blogFetch.delete(`/produtos/${id}`, {
+        id
+        })
+      
+    };
     return (
         <>
             <div className="container mt-5">
                 <main>
                     <div>
-                        <input type="email" className="form-control" id="floatingInput" placeholder="Id do produto" />
+                        <form onSubmit={(e) => removeProduct(e)}>
+                        <input type="number" className="form-control" id="floatingInput" placeholder="Id do produto" onChange={(e)=> setId(e.target.value)}/>
                         <br />
                         <button className="w-20 btn btn-lg btn-primary mt-5" type="submit">Remover</button>
+                        </form>
                     </div>
                 </main>
             </div>

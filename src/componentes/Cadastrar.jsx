@@ -1,18 +1,9 @@
-
 import '../css/Cadastrar.css';
-
 import blogFetch from "../hooks/axios";
-
-
 import { useState } from "react";
 
-import { useNavigate } from "react-router-dom";
-
-
-
 const Cadastrar = () => {
-    const navigate = useNavigate()
-        
+          
     const [nome, setNome] = useState()
     const [descricao, setDescricao] = useState()
     const [preco, setPreco] = useState()
