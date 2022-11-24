@@ -14,11 +14,13 @@
 }
 .position-relative {
     position: relative !important;
+   
 }
 .shadow-lg {
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    
 }
-.cardx {
+.card {
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -26,37 +28,53 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,0.125);
     border-radius: .25rem;
+    
 }
 
 .member-profile {
     top: -50px;
     left: 0;
+    
 }
 .text-center {
     text-align: center !important;
+    color: rgb(25, 29, 29);
 }
 .w-100 {
     width: 100% !important;
+    
 }
 .position-absolute {
     position: absolute !important;
+    
 }
 
 .member-profile img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    
 }
 .rounded-circle {
     border-radius: 50% !important;
+    
 }
 .mx-auto {
     margin-right: auto !important;
     margin-left: auto !important;
 }
 .shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(172, 41, 41, 0.08) !important;
+}
+
+.btn {
+
+    background-color: rgb(61, 122, 214);
+}
+
+h5 {
+   background-color: rgb(10, 61, 128);
 }
