@@ -4,24 +4,24 @@ import useFullPageLoader from './FullPageLoader/useFullPageLoader';
 
 function Index() {
 
-  {/* inicio do loader */}
+  {/* inicio do loader */ }
   const [loader, showLoader, hideLoader] = useFullPageLoader();
 
   useEffect(() => {
-      showLoader();
-      console.log("working loader");
-      setTimeout(() => {
-          hideLoader()
-      }, 1500);
+    showLoader();
+    console.log("working loader");
+    setTimeout(() => {
+      hideLoader()
+    }, 1500);
   }, [])
-{/* fim do loader */}
+  {/* fim do loader */ }
   return (
     <>
       {/* Jumbotron */}
       <div className="p-5 mb-4 myBackground rounded-3">
         <div className="container-fluid py-5 text-center">
           <h1 className="display-5 fw-bold text-dark ">NOME DA FERRAMENTA</h1>
-          <p className=" fs-4  text-white text-justify">Sabemos o que você precisa para o seu negócio!<br/> Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
+          <p className=" fs-4  text-white text-justify">Sabemos o que você precisa para o seu negócio!<br /> Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
         </div>
       </div>
       {/* hanging icons */}
@@ -140,10 +140,10 @@ function Index() {
       </div>
 
       {/* rodapé, favor não alterar :) */}
-      <div classNameName="container">
-                <footer classNameName="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom backgroundfooter">
-                    <p classNameName="col mb-0 text-muted">© MMXXII</p>
-                </footer>
+      <div className="container">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom backgroundfooter">
+          <p className="col mb-0 text-muted">© MMXXII</p>
+        </footer>
       </div>
       {/* inicio da chamada do loader */}
       {loader}
