@@ -1,8 +1,20 @@
 import '../css/Buscar.css';
+import { useEffect } from 'react';
 import FreeSolo from "./Autocompleter"
+import useFullPageLoader from './FullPageLoader/useFullPageLoader';
+
 
 const Buscar = () => {
 
+  const [loader, showLoader, hideLoader] = useFullPageLoader();
+
+  useEffect(() => {
+    showLoader();
+    console.log("working loader");
+    setTimeout(() => {
+      hideLoader()
+    }, 1500);
+  }, [])
   return (
     <>
       <div className="container mt-5">
@@ -16,6 +28,7 @@ const Buscar = () => {
           <p className="col mb-0 text-muted">© MMXXII</p>
         </footer>
       </div>
+      {loader}
     </>
   )
 }

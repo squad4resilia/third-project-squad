@@ -1,6 +1,7 @@
+import { useState, useEffect } from "react";
 import '../css/Cadastrar.css';
 import blogFetch from "../hooks/axios";
-import { useState } from "react";
+import useFullPageLoader from './FullPageLoader/useFullPageLoader';
 
 const Atualizar = () => {
        
@@ -9,7 +10,18 @@ const Atualizar = () => {
     const [descricao, setDescricao] = useState()
     const [preco, setPreco] = useState()
     const [imagem, setImagem] = useState()
-      
+    
+    const [loader, showLoader, hideLoader] = useFullPageLoader();
+
+    useEffect(() => {
+      showLoader();
+      console.log("working loader");
+      setTimeout(() => {
+        hideLoader()
+      }, 1500);
+    }, [])
+    
+
     const updateProduct = async (e) => {
         e.preventDefault();
         await blogFetch.patch(`/produtos/${id}`, {
@@ -52,6 +64,7 @@ const Atualizar = () => {
                     <p className="col mb-0 text-muted">© MMXXII</p>
                 </footer>
             </div>
+            {loader}
         </>
     )
 }

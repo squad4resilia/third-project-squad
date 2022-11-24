@@ -1,6 +1,19 @@
 import '../css/contato.css'
+import { useEffect } from 'react';
+import useFullPageLoader from './FullPageLoader/useFullPageLoader';
 
 function contatos() {
+
+  const [loader, showLoader, hideLoader] = useFullPageLoader();
+
+  useEffect(() => {
+    showLoader();
+    console.log("working loader");
+    setTimeout(() => {
+      hideLoader()
+    }, 500);
+  }, [])
+
   return (
 
     <>    
@@ -146,7 +159,12 @@ function contatos() {
           </div>
           </div>
         </section>
-
+        <div className="container">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mt-5 border-top sticky-bottom">
+          <p className="col mb-0 text-muted">© MMXXII</p>
+        </footer>
+      </div>
+        {loader}
         </>
 
 

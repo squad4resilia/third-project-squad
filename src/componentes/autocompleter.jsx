@@ -45,7 +45,7 @@ export default function FreeSolo() {
           options={products.map((product) => `${product.nome}`)}
           renderInput={(params) => 
           <>
-          <TextField {...params} label="try"/>
+          <TextField {...params} label="Nome do item"/>
             <div className="mt-5">{`Item: ${value}`}</div>
           </>
           } />

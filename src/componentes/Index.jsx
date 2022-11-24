@@ -1,6 +1,20 @@
 import '../css/index.css';
+import { useEffect } from 'react';
+import useFullPageLoader from './FullPageLoader/useFullPageLoader';
 
 function Index() {
+
+  {/* inicio do loader */}
+  const [loader, showLoader, hideLoader] = useFullPageLoader();
+
+  useEffect(() => {
+      showLoader();
+      console.log("working loader");
+      setTimeout(() => {
+          hideLoader()
+      }, 1500);
+  }, [])
+{/* fim do loader */}
   return (
     <>
       {/* Jumbotron */}
@@ -131,6 +145,9 @@ function Index() {
                     <p classNameName="col mb-0 text-muted">© MMXXII</p>
                 </footer>
       </div>
+      {/* inicio da chamada do loader */}
+      {loader}
+      {/* fim da chamada do loader */}
     </>
   )
 }
