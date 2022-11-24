@@ -1,15 +1,24 @@
+import '../css/index.css';
+
 function Index() {
   return (
     <>
-      <div classNameName="container px-4 py-5" id="hanging-icons">
-        <h2 classNameName="pb-2 border-bottom">Hanging icons</h2>
+      {/* Jumbotron */}
+      <div className="p-5 mb-4 myBackground rounded-3">
+        <div className="container-fluid py-5">
+          <h1 className="display-5 fw-bold text-dark">NOME DA FERRAMENTA</h1>
+          <p className="col-md-8 fs-4 text-white">Sabemos o que você precisa para o seu negócio! Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
+        </div>
+      </div>
+      <div className="container px-4 py-5" id="hanging-icons">
+        <h2 className="pb-2 border-bottom">Funcionalidades</h2>
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div className="col d-flex align-items-start">
             <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <svg className="bi" width="1em" height="1em"><use xlinkHref="#toggles2" /></svg>
             </div>
             <div>
-              <h3 className="fs-2">Featured title</h3>
+              <h3 className="fs-2">Cadastrar</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" className="btn btn-primary">
                 Primary button
@@ -21,7 +30,7 @@ function Index() {
               <svg className="bi" width="1em" height="1em"><use xlinkHref="#cpu-fill" /></svg>
             </div>
             <div>
-              <h3 className="fs-2">Featured title</h3>
+              <h3 className="fs-2">Buscar</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" className="btn btn-primary">
                 Primary button
@@ -33,7 +42,7 @@ function Index() {
               <svg className="bi" width="1em" height="1em"><use xlinkHref="#tools" /></svg>
             </div>
             <div>
-              <h3 className="fs-2">Featured title</h3>
+              <h3 className="fs-2">Remover</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" className="btn btn-primary">
                 Primary button
@@ -42,9 +51,20 @@ function Index() {
           </div>
         </div>
       </div>
+
+      {/* Jumbotron */}
+      <div className="p-5 mb-4 bg-dark rounded-3">
+        <div className="container-fluid py-5">
+          <h1 className="display-5 fw-bold text-white">A FERRAMENTA ERP IDEAL PARA O SEU NEGÓCIO!</h1>
+          <p className="col-md-8 fs-4 text-white">_____ é uma ferramenta software de gestão de estoque que interliga todos os dados e processos da sua organização em um único sistema!</p>
+          <button className="btn btn-primary btn-lg" type="button">Entre em contato!</button>
+        </div>
+      </div>
+
       <div className="container py-3">
         <main>
           <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            {/* Card 1 */}
             <div className="col">
               <div className="card mb-4 rounded-3 shadow-sm">
                 <div className="card-header py-3">
@@ -62,6 +82,8 @@ function Index() {
                 </div>
               </div>
             </div>
+
+            {/* Card 2 */}
             <div className="col">
               <div className="card mb-4 rounded-3 shadow-sm">
                 <div className="card-header py-3">
@@ -79,6 +101,8 @@ function Index() {
                 </div>
               </div>
             </div>
+
+            {/* Card 3 */}
             <div className="col">
               <div className="card mb-4 rounded-3 shadow-sm border-primary">
                 <div className="card-header py-3 text-bg-primary border-primary">
@@ -99,15 +123,6 @@ function Index() {
           </div>
         </main>
       </div>
-
-      <div className="p-5 mb-4 bg-light rounded-3">
-        <div className="container-fluid py-5">
-          <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-          <p className="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button className="btn btn-primary btn-lg" type="button">Entre em contato!</button>
-        </div>
-      </div>
-
 
       {/* rodapé, favor não alterar :) */}
       <div classNameName="container">
