@@ -74,7 +74,11 @@
 
     background-color: rgb(61, 122, 214);
 }
+ 
+.img {
 
-h5 {
-   background-color: rgb(10, 61, 128);
+    height: 50px;
+    border-radius: 50px;
+
 }
+
