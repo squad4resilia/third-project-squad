@@ -6,21 +6,21 @@ function Login() {
             <div className="container mt-5">
             <main className="d-flex flex-wrap justify-content-center">
                 <form>
-                    <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+                    <h1 className="h3 mb-3 fw-normal">Inicie sua sessão</h1>
                     <div className="form-floating mt-5 mb-3">
-                        <input type="text" className="form-control" id="floatingPassword" placeholder="name@example.com" />
-                        <label htmlFor="floatingInput">Email address</label>
+                        <input type="email" className="form-control" id="floatingPassword" placeholder="name@example.com" />
+                        <label htmlFor="floatingInput">Digite seu E-mail</label>
                     </div>
                     <div className="form-floating mb-3">
-                        <input type="text" className="form-control" id="floatingPassword" placeholder="Password" />
-                        <label htmlFor="floatingPassword">Password</label>
+                        <input type="number" className="form-control" id="floatingPassword" placeholder="Password" />
+                        <label htmlFor="floatingPassword">Senha</label>
                     </div>
                     <div className="checkbox mb-2">
                         <label>
-                            <input type="checkbox" value="remember-me" /> Remember me
+                            <input type="checkbox" value="remember-me" /> Lembrar
                         </label>
                     </div>
-                    <button className="w-20 btn btn-lg btn-primary mt-4" type="submit,">Sign in</button>
+                    <button className="w-20 btn btn-lg btn-primary mt-4" type="submit,">Entre</button>
                 </form>
             </main>
             </div>
