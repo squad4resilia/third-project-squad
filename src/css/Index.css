@@ -3,6 +3,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.backgroundfooter{
-    background-color: rgb(66, 66, 66);
+#classedesgraçada{
+    filter: brightness(50%);
+}
+#classedesgraçada2{
+    filter: brightness(0%);
+}
+#classedesgraçada3{
+    filter: brightness(0%);
+}
+.myBackground2 {
+    filter: brightness(0%);
 }
