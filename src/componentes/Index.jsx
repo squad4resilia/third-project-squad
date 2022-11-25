@@ -20,7 +20,7 @@ function Index() {
       {/* Jumbotron */}
       <div className="p-5 mb-4 mt-5 myBackground rounded-3" id="classedesgraçada">
         <div className="container-fluid py-5 text-center ">
-          <h1 className="display-5 fw-bold text-dark mybackground2" id="classedesgraçada2">Squadx</h1>
+          <h1 className="display-5 fw-bold text-dark mybackground2" id="classedesgraçada2">Nginx</h1>
           <p className=" fs-4  text-white text-justify mybackground2" id="classedesgraçada3">Sabemos o que você precisa para o seu negócio!<br /> Por isso desenvolvemos esta ferramenta para facilitar seus processos.</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ function Index() {
       <div className="p-5 mb-4 bg-dark rounded-3">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold text-white">A FERRAMENTA ERP IDEAL PARA O SEU NEGÓCIO!</h1>
-          <p className="fs-4 text-white">Squadx é uma ferramenta software de gestão de estoque que interliga todos os dados e processos da sua organização em um único sistema!</p>
+          <p className="fs-4 text-white">Nginx é uma ferramenta software de gestão de estoque que interliga todos os dados e processos da sua organização em um único sistema!</p>
           <button className="btn btn-primary btn-lg" type="button">Entre em contato!</button>
         </div>
       </div>
