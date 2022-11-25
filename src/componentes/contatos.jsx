@@ -30,8 +30,11 @@ function contatos() {
                 </div>
                 <div className="card-text pt-1">
                   <h5 className="member-name mb-0 text-center text-primary font-weight-bold">Ysmael Marques</h5>
-                  <div className="mb-3 text-center">Líder</div>
-                  <div><p>Direcionou as atividades e ações do projeto para o grupo</p>.</div>
+                  <div className="mb-3 text-center">Programador</div>
+                  <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque
+                    convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat
+                    est, et venenatis nunc.</div>
                 </div>
               </div>
               <div className="">
@@ -54,8 +57,11 @@ function contatos() {
                 </div>
                 <div className="card-text pt-1">
                   <h5 className="member-name mb-0 text-center text-primary font-weight-bold">Yan Alves</h5>
-                  <div className="mb-3 text-center">Gestor de pessoa e engajamento</div>
-                  <div>Responsável por garantir que todos façam o seu trabalho e verifica se está tudo certo .</div>
+                  <div className="mb-3 text-center">Programador</div>
+                  <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque
+                    convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat
+                    est, et venenatis nunc.</div>
                 </div>
               </div>
               <div className="">
@@ -78,8 +84,11 @@ function contatos() {
                 </div>
                 <div className="card-text pt-1">
                   <h5 className="member-name mb-0 text-center text-primary font-weight-bold">Rayane Santos</h5>
-                  <div className="mb-3 text-center">Gestora do conhecimento</div>
-                  <div><p>Responsável por auxiliar a equipe no desenvolvimento do projeto</p>.</div>
+                  <div className="mb-3 text-center">Programador</div>
+                  <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque
+                    convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat
+                    est, et venenatis nunc.</div>
                 </div>
               </div>
               <div className="">
@@ -102,8 +111,11 @@ function contatos() {
                 </div>
                 <div className="card-text pt-1">
                   <h5 className="member-name mb-0 text-center text-primary font-weight-bold">Jariane Santos</h5>
-                  <div className="mb-3 text-center">colaborador</div>
-                  <div>Responsável por fazer as tarefas passadas pela equipe e auxiliar nos outros cargos.</div>
+                  <div className="mb-3 text-center">Programador</div>
+                  <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque
+                    convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat
+                    est, et venenatis nunc.</div>
                 </div>
               </div>
               <div className="">
@@ -126,8 +138,11 @@ function contatos() {
                 </div>
                 <div className="card-text pt-1">
                   <h5 className="member-name mb-0 text-center text-primary font-weight-bold">Larissa Martins</h5>
-                  <div className="mb-3 text-center"> colaborador</div>
-                  <div> Responsável por fazer as tarefas passadas pela equipe e auxiliar nos outros cargos.</div>
+                  <div className="mb-3 text-center">Programador</div>
+                  <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque
+                    convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat
+                    est, et venenatis nunc.</div>
                 </div>
               </div>
               <div className="">
